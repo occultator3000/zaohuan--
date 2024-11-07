@@ -1,0 +1,128 @@
+.container {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.page-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #007aff;
+  text-align: center; /* 确保标题居中 */
+  margin-bottom: 25px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-subtitle {
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #333; /* 去掉透明效果 */
+  text-align: center;
+}
+
+.form-group {
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* 居中对齐 */
+}
+
+.date-inputs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* 确保两个日期输入框在一行显示 */
+  width: 100%; /* 占满父容器宽度 */
+}
+
+.input-field, .input-date {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 5px;
+  font-size: 16px;
+}
+
+.budget-inputs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* 确保两个预算输入框在一行显示 */
+  width: 50%; /* 占满父容器宽度 */
+}
+
+.budget-input {
+  width: calc(48% - 5px);
+}
+
+.budget-separator, .date-separator {
+  margin: 0 5px;
+  font-size: 16px;
+}
+
+.radio-group {
+  display: flex;
+  justify-content: space-between; /* 居中对齐 */
+  align-items: center;
+  width: 100%; /* 调整宽度，使其在父容器内居中 */
+}
+
+.radio-group label {
+  margin-right: 15px;
+  font-size: 16px;
+}
+
+.radio-group input[type='radio'] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 18px;
+  height: 18px;
+  border: 2px solid #007aff;
+  border-radius: 50%;
+  margin-right: 5px;
+  cursor: pointer;
+  position: relative;
+}
+
+.radio-group input[type='radio']:checked::after {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 10px;
+  height: 10px;
+  background-color: #007aff;
+  border-radius: 50%;
+}
+
+.required {
+  color: red;
+}
+
+.submit-button {
+  width: 100%;
+  max-width: 600px;
+  padding: 12px 0;
+  background-color: #007aff;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #005bb5;
+}

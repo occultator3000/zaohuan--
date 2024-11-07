@@ -1,0 +1,8 @@
+{
+  "pages": [
+    "pages/welcome/welcome",
+    "pages/login/login",
+    "pages/register/register"
+  ],
+  "usingComponents": {}
+}

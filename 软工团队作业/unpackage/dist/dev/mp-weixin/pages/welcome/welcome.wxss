@@ -1,0 +1,34 @@
+
+.container.data-v-085f0530 {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100vh;
+		flex-direction: column;
+}
+.welcome-text.data-v-085f0530 {
+		margin-bottom: 50px;
+		font-size: 60rpx;
+		font-weight: 700;
+}
+.button-group.data-v-085f0530 {
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+}
+.welcome-image.data-v-085f0530{
+			width: 200rpx;
+			height: 200rpx;
+			margin-bottom: 50rpx;
+			justify-content: center;
+}
+button.data-v-085f0530 {
+  width: 200px;
+  padding: 15px;
+  background-color: #007aff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 18px;
+}

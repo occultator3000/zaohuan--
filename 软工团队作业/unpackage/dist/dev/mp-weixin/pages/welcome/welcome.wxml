@@ -1,0 +1,1 @@
+<view class="container data-v-085f0530"><image class="welcome-image data-v-085f0530" src="{{a}}"></image><view class="welcome-text data-v-085f0530"><text class="data-v-085f0530">行趣</text></view><view class="button-group data-v-085f0530"><button class="data-v-085f0530" bindtap="{{b}}">登录</button><button class="data-v-085f0530" bindtap="{{c}}">注册</button></view></view>

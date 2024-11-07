@@ -1,0 +1,28 @@
+<view class="container">
+  <text class="page-title">智能旅游路线推荐</text>
+  <view class="form">
+    <text class="form-subtitle">请填写您的旅游计划</text>
+    <view class="form-group">
+      <label>目的地：</label>
+      <input class="input-field" placeholder="如福建省福州市鼓楼区，仅限国内" />
+    </view>
+    <view class="form-group">
+      <label>时间：</label>
+      <view class="date-inputs">
+        <input class="input-date" placeholder="开始日期" type="date" />
+        <text class="date-separator">至</text>
+        <input class="input-date" placeholder="结束日期" type="date" />
+      </view>
+    </view>
+    <view class="form-group">
+      <label>预算：</label>
+      <view class="budget-inputs">
+        <input class="input-field budget-input" placeholder="请输入预算下限" type="number" />
+        <text class="budget-separator">—</text>
+        <input class="input-field budget-input" placeholder="请输入预算上限" type="number" />
+        <text class="currency">元</text>
+      </view>
+    </view>
+    <!-- 其他表单内容 -->
+  </view>
+</view>
